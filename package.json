@@ -1,0 +1,38 @@
+{
+  "name": "movie_api",
+  "version": "1.0.0",
+  "description": "This API is created for the practice purpose only. Do not put your realtime data in the any form here. Keep your privacy at your risk. The API talks about the movies released over the years.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "movie",
+    "api",
+    "free",
+    "api",
+    "api",
+    "restful",
+    "rest",
+    "movie",
+    "actor",
+    "actress",
+    "hollywood"
+  ],
+  "author": "Sunny Kumar",
+  "license": "ISC",
+  "engines": {
+    "node": ">=15"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.1",
+    "path": "^0.12.7"
+  }
+}
